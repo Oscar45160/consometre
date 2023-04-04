@@ -13,6 +13,10 @@ data = pd.read_csv("donnees.csv",)
 data = data.dropna()  # Supprime les lignes avec des données manquantes
 data['Date_Heure'] = pd.to_datetime(data['Date_Heure'])
 
+# print DataFrame
+print(data)
+
+
 # Création des variables explicatives et de la variable à expliquer
 X = data[['Vitesse du vent moyen 10 mn', 'Humidité', 'Précipitations dans les 3 dernières heures', 'Température (°C)']]
 y = data['consommation']
