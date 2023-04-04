@@ -1,51 +1,34 @@
-# Importation des librairies
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
+from sklearn.impute import SimpleImputer
 
-# Importation des données
-data = pd.read_csv("donnees.csv",)
+# Charger les données (remplacez par le nom de votre fichier CSV)
+data = pd.read_csv("donnees.csv")
 
-# Suppression des données manquantes
-data = data.dropna()  # Supprime les lignes avec des données manquantes
-data['Date_Heure'] = pd.to_datetime(data['Date_Heure'])
+# Sélectionner les variables pertinentes
+X = data[["Température (°C)", "Point de rosée", "datehour", "datemonth"]]
+y = data["consommation"]
 
-# print DataFrame
-print(data)
-
-
-# Création des variables explicatives et de la variable à expliquer
-X = data[['Vitesse du vent moyen 10 mn', 'Humidité', 'Précipitations dans les 3 dernières heures', 'Température (°C)']]
-y = data['consommation']
-
-# Création des données d'entrainement et de test
+# Diviser les données en ensembles d'entraînement et de test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Normalisation des données
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+# Créer un imputer pour remplacer les valeurs manquantes (NaN) par la moyenne des colonnes
+imputer = SimpleImputer(strategy="mean")
 
-# Entrainer le modèle
-model = RandomForestRegressor(n_estimators=100, random_state=42)
+# Ajuster l'imputer sur X_train et transformer X_train et X_test
+X_train = imputer.fit_transform(X_train)
+X_test = imputer.transform(X_test)
+
+# Créer et entraîner le modèle de régression linéaire multiple
+model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Evaluer le modèle
+# Prédire la consommation électrique sur l'ensemble de test
 y_pred = model.predict(X_test)
+
+# Calculer l'erreur quadratique moyenne (RMSE) pour évaluer la performance du modèle
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
-print("RMSE: ", rmse)
-
-# Définissez vos valeurs de données météorologiques prévues
-temperature = 20  # Remplacez 20 par la température prévue
-humidite = 50  # Remplacez 50 par l'humidité prévue
-vitesse_du_vent = 10  # Remplacez 10 par la vitesse du vent prévue
-precipitations = 0  # Remplacez 0 par les précipitations prévues dans les 3 dernières heures
-
-# Prédire la consommation
-predicted_weather_data = np.array([[vitesse_du_vent, humidite, precipitations, temperature]])
-predicted_weather_data = scaler.transform(predicted_weather_data)  # Normalisez les données si nécessaire
-predicted_consumption = model.predict(predicted_weather_data)
-print("Consommation prévue pour le prochain jour : ", predicted_consumption)
+print("RMSE:", rmse)
