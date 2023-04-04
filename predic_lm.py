@@ -45,7 +45,7 @@ weather_data["datehour"] = pd.to_datetime(weather_data["datehour"])
 weather_data = weather_data.groupby("datehour").agg({"consommation": "sum", "Température (°C)": "mean", "Point de rosée": "mean"}).reset_index()
 
 # Régler la fréquence de l'index de date (ajustez 'H' en fonction de la fréquence de vos données)
-weather_data = weather_data.set_index("datehour").asfreq('H')
+weather_data = weather_data.set_index("datehour").asfreq('D')
 
 # Sélectionner les variables pertinentes
 temperature = weather_data[["Température (°C)"]]
