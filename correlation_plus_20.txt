@@ -1,0 +1,42 @@
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'TempÃ©rature' est : -0.586008423510577
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Point de rosÃ©e' est : -0.60578655568752
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'TempÃ©rature (Â°C)' est : -0.5860084235105769
+
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Pression station' est : 0.9999771056360467
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Rafales sur une pÃ©riode' est : -0.2607835034788707
+
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Type de tendance baromÃ©trique' est : -0.7070087042846089
+
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'HumiditÃ©' est : -0.2825618435781135
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'VisibilitÃ© horizontale' est : 0.30039019235005354
+
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'HumiditÃ©' est : -0.30642820189965353
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Pression station' est : -0.23946156667127969
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Rafales sur une pÃ©riode' est : 0.9351767616816572
+
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Point de rosÃ©e' est : 0.7437642006374092
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'HumiditÃ©' est : -0.3788899026395105
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'TempÃ©rature (Â°C)' est : 0.9999999999999999
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'datehour' est : 0.25240387947662934
+
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'HumiditÃ©' est : 0.32383171663393734
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'VisibilitÃ© horizontale' est : -0.2302299145504324
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'TempÃ©rature (Â°C)' est : 0.743764200637409
+
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'VisibilitÃ© horizontale' est : -0.5240263507605755
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Temps prÃ©sent' est : 0.26269951663078456
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Rafales sur une pÃ©riode' est : -0.3639567602863609
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'TempÃ©rature (Â°C)' est : -0.3788899026395104
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'datehour' est : -0.22053786932453354
+
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Temps prÃ©sent' est : -0.28938112515719516
+
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.32257554260980603
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.3280670657092249
+
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'Rafales sur une pÃ©riode' est : -0.26035885897989025
+
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.7861962851393587
+
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature (Â°C)' et la colonne 'datehour' est : 0.25240387947662923
+

@@ -24,10 +24,10 @@ print('Coefficient de corrélation de Pearson :', correlation)
 df = pd.read_excel('donnees_meteo.xlsx', sheet_name='donnees meteo')
 
 # Sélectionner la première colonne comme référence
-ref_col = df.iloc[:, 0]
+ref_col = df.iloc[:, 18]
 
 # Parcourir toutes les colonnes restantes
-for col_name in df.columns[1:]:
+for col_name in df.columns[19:]:
     # Sélectionner la colonne courante
     curr_col = df[col_name]
     

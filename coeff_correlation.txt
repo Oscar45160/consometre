@@ -17,3 +17,263 @@ Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la 
 Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Unnamed: 17' est : nan
 Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'datehour' est : 0.14488741336484146
 Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'datemonth' est : -0.10589083049630452
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Variation de pression en 3 heures' est : 0.07905739635780207
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Type de tendance baromÃ©trique' est : -0.05640086637886941
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Direction du vent moyen 10 mn' est : -0.07133430966423603
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Vitesse du vent moyen 10 mn' est : -0.2398247420728278
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'TempÃ©rature' est : -0.10974746038195247
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Point de rosÃ©e' est : -0.13178464131629164
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'HumiditÃ©' est : -0.031261531109958864
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'VisibilitÃ© horizontale' est : -0.01813423644845825
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Temps prÃ©sent' est : -0.15328577763268775
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Pression station' est : 0.9999771056360467
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Rafales sur une pÃ©riode' est : -0.2607835034788707
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.05942912995552282
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.07534447019572295
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'TempÃ©rature (Â°C)' est : -0.10974746038195247
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'datehour' est : -0.028649833670431495
+Le coefficient de corrélation de Pearson entre la colonne 'Pression au niveau mer' et la colonne 'datemonth' est : 0.078313493334148
+
+
+----
+
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Type de tendance baromÃ©trique' est : -0.7070087042846089
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Direction du vent moyen 10 mn' est : 0.12172045226758248
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Vitesse du vent moyen 10 mn' est : -0.04606548496036265
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'TempÃ©rature' est : -0.11224374122990191
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Point de rosÃ©e' est : -0.09188938396281314
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'HumiditÃ©' est : 0.001066451051488812
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'VisibilitÃ© horizontale' est : 0.12181215684520451
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Temps prÃ©sent' est : -0.024586361365087444
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Pression station' est : 0.07858987437939301
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Rafales sur une pÃ©riode' est : -0.009111351541762408
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.004415376929804964
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.0031071244966879965
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'TempÃ©rature (Â°C)' est : -0.11224374122990187
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'datehour' est : 0.17392315944724607
+Le coefficient de corrélation de Pearson entre la colonne 'Variation de pression en 3 heures' et la colonne 'datemonth' est : 0.015356887255412522
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Direction du vent moyen 10 mn' est : -0.07585386611198905
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Vitesse du vent moyen 10 mn' est : 0.05306842813246457
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'TempÃ©rature' est : 0.11031460759798024
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Point de rosÃ©e' est : 0.063225947384924
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'HumiditÃ©' est : -0.044162067662991786
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'VisibilitÃ© horizontale' est : -0.0751560708190578
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Temps prÃ©sent' est : 0.002063973390547221
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Pression station' est : -0.05598352753132141
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Rafales sur une pÃ©riode' est : 0.03243365592186215
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.005415591304719431
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.01182294121045889
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'TempÃ©rature (Â°C)' est : 0.11031460759798024
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'datehour' est : -0.10557479493603768
+Le coefficient de corrélation de Pearson entre la colonne 'Type de tendance baromÃ©trique' et la colonne 'datemonth' est : -0.015516518838583751
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Vitesse du vent moyen 10 mn' est : 0.11725813366424465
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'TempÃ©rature' est : 0.006293270259658382
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Point de rosÃ©e' est : -0.1776855498245703
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'HumiditÃ©' est : -0.2825618435781135
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'VisibilitÃ© horizontale' est : 0.30039019235005354
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Temps prÃ©sent' est : -0.06417258691661422
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Pression station' est : -0.07140801604084067
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Rafales sur une pÃ©riode' est : 0.1344838687681112
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.011160700684728858
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.025147365446515718
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'TempÃ©rature (Â°C)' est : 0.006293270259658375
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'datehour' est : 0.016809597713102455
+Le coefficient de corrélation de Pearson entre la colonne 'Direction du vent moyen 10 mn' et la colonne 'datemonth' est : -0.029896012003258244
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'TempÃ©rature' est : 0.1372623591732107
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Point de rosÃ©e' est : -0.08750651083002449
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'HumiditÃ©' est : -0.30642820189965353
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'VisibilitÃ© horizontale' est : 0.07735596266834
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Temps prÃ©sent' est : 0.058973810369950794
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Pression station' est : -0.23946156667127969
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Rafales sur une pÃ©riode' est : 0.9351767616816572
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.03779541217355532
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.04007091225035712
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'TempÃ©rature (Â°C)' est : 0.13726235917321056
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'datehour' est : 0.13828380235574575
+Le coefficient de corrélation de Pearson entre la colonne 'Vitesse du vent moyen 10 mn' et la colonne 'datemonth' est : -0.025205125924332626
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Point de rosÃ©e' est : 0.7437642006374092
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'HumiditÃ©' est : -0.3788899026395105
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'VisibilitÃ© horizontale' est : 0.10702148054789479
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Temps prÃ©sent' est : -0.11396164087735271
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Pression station' est : -0.10432500933344704
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Rafales sur une pÃ©riode' est : 0.1492935351639134
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.023567460896860844
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.024312820011413373
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'TempÃ©rature (Â°C)' est : 0.9999999999999999
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'datehour' est : 0.25240387947662934
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature' et la colonne 'datemonth' est : 0.10232782453530316
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'HumiditÃ©' est : 0.32383171663393734
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'VisibilitÃ© horizontale' est : -0.2302299145504324
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'Temps prÃ©sent' est : 0.04862459509497164
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'Pression station' est : -0.1275227622456748
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'Rafales sur une pÃ©riode' est : -0.12056186597041246
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.03590952499767834
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.048413346598214835
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'TempÃ©rature (Â°C)' est : 0.743764200637409
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'datehour' est : 0.10140263753743779
+Le coefficient de corrélation de Pearson entre la colonne 'Point de rosÃ©e' et la colonne 'datemonth' est : 0.15276871839664985
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'VisibilitÃ© horizontale' est : -0.5240263507605755
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Temps prÃ©sent' est : 0.26269951663078456
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Pression station' est : -0.03302778099824087
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Rafales sur une pÃ©riode' est : -0.3639567602863609
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.09694461428682687
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.11744806045319037
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'TempÃ©rature (Â°C)' est : -0.3788899026395104
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'datehour' est : -0.22053786932453354
+Le coefficient de corrélation de Pearson entre la colonne 'HumiditÃ©' et la colonne 'datemonth' est : 0.06974736809488373
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Temps prÃ©sent' est : -0.28938112515719516
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Pression station' est : -0.017812148417873694
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Rafales sur une pÃ©riode' est : 0.110942637237923
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.10119557460357022
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.09929172648339483
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'TempÃ©rature (Â°C)' est : 0.1070214805478948
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'datehour' est : 0.03387072866366389
+Le coefficient de corrélation de Pearson entre la colonne 'VisibilitÃ© horizontale' et la colonne 'datemonth' est : -0.010785328489728001
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'Pression station' est : -0.15403282407537847
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'Rafales sur une pÃ©riode' est : 0.07128559472073208
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.32257554260980603
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.3280670657092249
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'TempÃ©rature (Â°C)' est : -0.11396164087735272
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'datehour' est : -0.007708101981356129
+Le coefficient de corrélation de Pearson entre la colonne 'Temps prÃ©sent' et la colonne 'datemonth' est : -0.004489660392456803
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'Rafales sur une pÃ©riode' est : -0.26035885897989025
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : -0.05962985866127908
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : -0.07550852757134784
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'TempÃ©rature (Â°C)' est : -0.1043250093334471
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'datehour' est : -0.027543510359870238
+Le coefficient de corrélation de Pearson entre la colonne 'Pression station' et la colonne 'datemonth' est : 0.07909397792649675
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.06202274580546883
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.06509005891239035
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'TempÃ©rature (Â°C)' est : 0.14929353516391333
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'datehour' est : 0.16383283186499556
+Le coefficient de corrélation de Pearson entre la colonne 'Rafales sur une pÃ©riode' et la colonne 'datemonth' est : -0.027738265184936176
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'TempÃ©rature (Â°C)' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'datehour' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Periode de mesure de la rafale' et la colonne 'datemonth' est : nan
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.7861962851393587
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'TempÃ©rature (Â°C)' est : -0.023567460896860865
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'datehour' est : -0.001062780646731722
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' et la colonne 'datemonth' est : 0.006212870290295662
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' et la colonne 'TempÃ©rature (Â°C)' est : -0.02431282001141337
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' et la colonne 'datehour' est : 0.0033237250892816953
+Le coefficient de corrélation de Pearson entre la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' et la colonne 'datemonth' est : 0.006595751365945852
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature (Â°C)' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature (Â°C)' et la colonne 'datehour' est : 0.25240387947662923
+Le coefficient de corrélation de Pearson entre la colonne 'TempÃ©rature (Â°C)' et la colonne 'datemonth' est : 0.10232782453530312
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'Unnamed: 17' et la colonne 'datehour' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'Unnamed: 17' et la colonne 'datemonth' est : nan
+
+
+----
+
+
+Le coefficient de corrélation de Pearson entre la colonne 'datehour' et la colonne 'datemonth' est : 0.003843021789087373
