@@ -1,5 +1,6 @@
 import pandas as pd
 
+"""
 # Lire les données Excel
 df = pd.read_excel('donnees_meteo.xlsx', sheet_name='donnees meteo')
 # Remplacer 'colonne1' et 'colonne2' par les noms des colonnes à comparer
@@ -17,3 +18,22 @@ correlation = x.corr(y)
 
 # Afficher la corrélation
 print('Coefficient de corrélation de Pearson :', correlation)
+"""
+
+# Lire les données Excel
+df = pd.read_excel('donnees_meteo.xlsx', sheet_name='donnees meteo')
+
+# Sélectionner la première colonne comme référence
+ref_col = df.iloc[:, 0]
+
+# Parcourir toutes les colonnes restantes
+for col_name in df.columns[1:]:
+    # Sélectionner la colonne courante
+    curr_col = df[col_name]
+    
+    # Calculer le coefficient de corrélation de Pearson
+    corr_coef = ref_col.corr(curr_col)
+    
+    # Afficher le résultat
+    print(f"Le coefficient de corrélation de Pearson entre la colonne '{ref_col.name}' et la colonne '{col_name}' est : {corr_coef}")
+

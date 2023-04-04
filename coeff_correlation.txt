@@ -1,0 +1,19 @@
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Pression au niveau mer' est : 0.06162706290293356
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Variation de pression en 3 heures' est : 0.07235633964613362
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Type de tendance baromÃ©trique' est : -0.06446762622000796
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Direction du vent moyen 10 mn' est : -0.007403064264528427
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Vitesse du vent moyen 10 mn' est : 0.06613999515824136
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'TempÃ©rature' est : -0.586008423510577
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Point de rosÃ©e' est : -0.60578655568752
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'HumiditÃ©' est : -0.012511599717259578
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'VisibilitÃ© horizontale' est : -0.05884885524285335
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Temps prÃ©sent' est : 0.06428225224176685
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Pression station' est : 0.05826200413537166
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Rafales sur une pÃ©riode' est : 0.07680649811774949
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Periode de mesure de la rafale' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'PrÃ©cipitations dans la derniÃ¨re heure' est : 0.006921656218399411
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'PrÃ©cipitations dans les 3 derniÃ¨res heures' est : 0.0012558201768619042
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'TempÃ©rature (Â°C)' est : -0.5860084235105769
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'Unnamed: 17' est : nan
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'datehour' est : 0.14488741336484146
+Le coefficient de corrélation de Pearson entre la colonne 'consommation' et la colonne 'datemonth' est : -0.10589083049630452
