@@ -42,7 +42,7 @@ weather_data = pd.read_csv("donnees.csv")
 weather_data["datehour"] = pd.to_datetime(weather_data["datehour"])
 
 # Supprimer les doublons
-weather_data = weather_data.drop_duplicates(subset="datehour")
+weather_data = weather_data.groupby("datehour").agg({"consommation": "sum", "Température (°C)": "mean", "Point de rosée": "mean"}).reset_index()
 
 # Régler la fréquence de l'index de date (ajustez 'H' en fonction de la fréquence de vos données)
 weather_data = weather_data.set_index("datehour").asfreq('H')
