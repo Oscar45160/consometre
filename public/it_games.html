@@ -33,6 +33,7 @@
     </form>
 
 <script>
+    console.log("ta mere")
     const button = document.getElementById('button');
     button.addEventListener('click', afficherPrevisions);
 
@@ -40,6 +41,8 @@
 
     function envoyerDate() {
         const date = document.getElementById("date").value;
+
+        console.log(date)
         const dateMoins4 = new Date(date);
         dateMoins4.setDate(dateMoins4.getDate() - 4);
 
@@ -61,6 +64,7 @@
     })
 
   function afficherPrevisions() {
+    console.log("ta mere")
     const dates = handleDateChange();
     const date = dates.date.toLocaleDateString('fr-FR');
     const previsions = `
@@ -69,7 +73,7 @@
         <li>Prévision de 0h à 6h : <span id="nuit"></span> KwH</li>
         <li>Prévision de 6h à 12h : <span id="matin"></span> KwH</li>
         <li>Prévision de 12h à 18h : <span id="apres-midi"></span> KwH</li>
-        <li>Prévision de 18h à 20h : <span id="soir"></span> KwH</li>
+        <li>Prévision de 18h à 23h : <span id="soir"></span> KwH</li>
       </ul>
     `;
     document.getElementById("previsions").innerHTML = previsions;
