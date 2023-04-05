@@ -11,7 +11,7 @@
     <header>
         <div class="div1">
             <img src="images/logo.png" alt=""width="100px">
-            <h1>Consometre</h1>
+            <h1><strong>Consometre</strong></h1>
         </div>
     <nav>
         <div class="container teal borderYtoX">
@@ -49,8 +49,20 @@
                 <a href="#" class="button-2">cliquer ici</a>
             </article>
         </section>
+        <h1>PostgreSQL Data:</h1>
+    <pre id="data"></pre>
+
+    <script>
+        fetch('http://localhost:2500/api/data')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('data').textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+    </script>
     </body>
-    <script src="script/bundle.js"></script>
     <footer>
 
         <h1>Data scope .</h1>

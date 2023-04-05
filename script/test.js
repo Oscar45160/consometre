@@ -1,5 +1,5 @@
 const pgp = require('pg-promise')();
-const db = pgp('postgres://postgres:@host:5432/postgres');
+const db = pgp('postgres://postgres:root@localhost:5432/postgres');
 
 db.one('SELECT NOW()')
   .then((result) => {

@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
+*{
+  font: 20px Raleway;
+}
+
 .div1{
 	display: flex;
 	color: white;
@@ -48,6 +52,7 @@ header {
 	  z-index: 0;
 	  cursor: pointer;
   }
+  
   
   /* Border from Y to X  */
   div.borderYtoX a:before, div.borderYtoX a:after
@@ -129,18 +134,7 @@ border-radius: 10px;
     text-align: center;
 	border: solid;
 }
-  /* Définir un élément avec une transition d'animation pour l'échelle */
-.les_articles {
-	transform: scale(1); /* Échelle de 1 (taille normale) */
-	transition: transform 0.3s ease-in-out; /* Transition de 0.3 seconde avec une fonction d'accélération/décélération pour la propriété transform */
-  }
   
-  .les_articles:hover {
-	transform: scale(1.1); /* Appliquer une mise à l'échelle de 110% lors du survol */
-  }
-  
-
-
 article h4{
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
@@ -192,11 +186,13 @@ footer{
 
 
 /* page qui somme nous  */
+
 #section3 p{
  text-align: justify;
-font-size:25px;
+font-size:20px;
 width: 80%;
-font-family: Arial;
+font-family: Raleway;
+margin-left: 6% ;
 }
 #section3 h1{
 	font-family: Arial, Helvetica, sans-serif;
@@ -214,5 +210,4 @@ font-family: Arial;
 #section5{
 border: solid;
 }
-
-
+ 

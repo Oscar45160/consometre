@@ -257,7 +257,7 @@ WHERE DM.datehour BETWEEN 18 AND 23;
 SELECT AVG(Consommation) * 2 as soir
 FROM conso_4;
 
-
+/*
 DROP TABLE donnees_meteo_selectionnees;
 DROP TABLE donnees_pour_conso;
 DROP TABLE conso;
@@ -265,3 +265,4 @@ DROP TABLE donnees_pour_conso_1;
 DROP TABLE donnees_pour_conso_2;
 DROP TABLE donnees_pour_conso_3;
 DROP TABLE donnees_pour_conso_4;
+*/
