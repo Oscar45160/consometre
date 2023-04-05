@@ -1,0 +1,175 @@
+.div1{
+	display: flex;
+	color: white;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #444;
+  }
+  
+  header img {
+	margin-right: auto;
+	margin-left: auto;
+   display: block;
+  }
+  
+  nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  nav li {
+	margin-right: 30px;
+  }
+  nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  nav a:hover {
+	text-decoration: underline;
+	color: white;
+  }  
+/* les element dans le nav e header */
+#section_1{
+	display: flex;
+}  
+
+#section_1 {
+	text-align: justify;
+	width: 60%;
+  }
+  
+  #phrase_dacroche h2 {
+	font-size: 3rem;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #phrase_dacroche p {
+	font-size: 1.2rem;
+	font-family: Arial;
+  }
+  
+
+#image img {
+	float: right;
+	width: 100%;
+	height: auto;
+  }
+
+  #section2{
+    background-color: #efefef;
+    padding: 60px 0;
+	display: flex;
+	padding-left: 16em;
+}
+
+
+#section2 article{
+width: 460px;
+height: 270px;
+border-radius: 10px;
+
+}
+#section2 article:first-child{
+    margin-right: 20px;
+}
+.les_articles{
+	background-color: #efefef;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+	border: solid;
+}
+  /* Définir un élément avec une transition d'animation pour l'échelle */
+.les_articles {
+	transform: scale(1); /* Échelle de 1 (taille normale) */
+	transition: transform 0.3s ease-in-out; /* Transition de 0.3 seconde avec une fonction d'accélération/décélération pour la propriété transform */
+  }
+  
+  .les_articles:hover {
+	transform: scale(1.1); /* Appliquer une mise à l'échelle de 110% lors du survol */
+  }
+  
+
+
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+#section2 p{
+    text-align: center;
+    margin-bottom: 30px;
+	color: black;
+}
+.button-2{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+
+}
+.button-2:hover{
+    color: #fff;
+    background-color: #02b8dd;
+}
+
+ body{
+	background-color:#efefef ;
+
+ }
+
+footer h1{
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #444;
+    height: 260px;
+    
+}
+.copyritht{
+    text-align: center;
+    font-weight: bold;
+    padding-top:30px;
+    color: #777;
+
+}
+
+
+
+/* page qui somme nous  */
+#section3 p{
+ text-align: justify;
+font-size:25px;
+width: 80%;
+font-family: Arial;
+}
+#section3 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#section4{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: underline;
+}
+#section5{
+border: solid;
+}
+
+

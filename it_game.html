@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="it_game.css">
+</head>
+<header>
+    <div class="div1">
+        <img src="logo.png" alt=""width="100px">
+        <h1>Consometre</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="acceuil.html">Acceuil</a></li>
+            <li><a href="it_game.html">Prevision future</a></li>
+            <li><a href="">Prevision passer</a></li>
+            <li><a href="page.html">Qui somme nous</a></li>
+        </ul>
+    </nav>
+ </header> 
+
+ <div>
+    <label for="dates">Choisissez une date :</label>
+    <select id="dates"></select>
+    <input type="text" id="weather" placeholder="Prévision météo du jour">
+    <button id="submitBtn">Soumettre</button>
+  </div>
+  <div id="result">
+    <h2>Résultat</h2>
+    <p id="selectedDate"></p>
+    <p id="weatherToday"></p>
+    <table id="weatherDetails">
+      <tr>
+        <th>Heure</th>
+        <th>Prévision</th>
+      </tr>
+    </table>
+  </div>
+  
+  <script>
+    // Obtenez l'élément select par son ID
+    const select = document.getElementById("dates");
+    const weatherInput = document.getElementById("weather");
+    const submitBtn = document.getElementById("submitBtn");
+    const selectedDateP = document.getElementById("selectedDate");
+    const weatherTodayP = document.getElementById("weatherToday");
+    const weatherDetailsTable = document.getElementById("weatherDetails");
+  
+    // Obtenez la date actuelle
+    const dateActuelle = new Date();
+  
+    // Ajoutez les dates suivantes à la liste déroulante à intervalle de 3 heures
+    const interval = 3; // intervalle en heures
+    for (let i = 0; i < 4 * 8; i += interval) { // 4 * 8 = 32, pour les 4 jours suivants avec 8 intervalles de 3 heures par jour
+      const option = document.createElement("option");
+      const date = new Date();
+      date.setHours(dateActuelle.getHours() + i);
+      const dateText = date.toLocaleDateString("fr-FR", { weekday: "long", year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "numeric" });
+      option.text = dateText;
+      option.value = date;
+      select.add(option);
+    }
+  
+    // Écouteur d'événement pour le bouton de soumission
+    submitBtn.addEventListener("click", function() {
+      const selectedDate = new Date(select.value);
+      const weather = weatherInput.value;
+      const weatherDetails = [];
+      for (let i = 0; i <= 12; i += interval) {
+        const time = new Date(selectedDate);
+        time.setHours(selectedDate.getHours() + i);
+        const timeText = time.toLocaleTimeString("fr-FR", { hour: "numeric", minute: "numeric" });
+        weatherDetails.push({
+          time: timeText,
+          weather: weather
+        });
+      }
+      selectedDateP.textContent = `Date choisie : ${selectedDate.toLocaleDateString("fr-FR", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}`;
+      weatherTodayP.textContent = `Prévision météo du jour : ${weather}`;
+      weatherDetailsTable.innerHTML = `
+        <tr>
+          <th>Heure</th>
+          <th>Prévision</th>
+        </tr>
+        ${weatherDetails.map(item => `
+          <tr>
+            <td>${item.time}</td>
+            <td>${item.weather}</td>
+          </tr>
+        `).join('')}
+      `;
+    });
+  
+  </script>
+  
+  
+</body>
+</html>
