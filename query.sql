@@ -1,3 +1,11 @@
+DROP TABLE donnees_meteo_selectionnees;
+DROP TABLE donnees_pour_conso;
+DROP TABLE conso;
+DROP TABLE donnees_pour_conso_1;
+DROP TABLE donnees_pour_conso_2;
+DROP TABLE donnees_pour_conso_3;
+DROP TABLE donnees_pour_conso_4;
+
 CREATE TABLE donnees_meteo_selectionnees (
     casse_pied FLOAT,
     Date_Heure timestamp, 

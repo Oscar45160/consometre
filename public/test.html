@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/it_game.css">
+</head>
+
+<body>
+
+    <h1>Prévisions météorologiques</h1>
+<form method="get">
+<label for="date">Sélectionner une date :</label>
+<input type="date" id="date" name="date"><br>
+<button onclick="envoyerDate()">Afficher les prévisions</button>
+</form>
+    <script>
+    function envoyerDate() {
+        const date = document.getElementById("date").value;
+        const dateMoins4 = new Date(date);
+        dateMoins4.setDate(dateMoins4.getDate() - 4);
+
+        console.log(dateMoins4);
+        return [date, dateMoins4];
+    }
+
+    let [date1 , date2] = envoyerDate();
+    console.log([date1, date2]);
+    fetch('/Route', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            date1: date1,
+            date2: date2
+        })
+    })
+    </script>
+        
+</body>

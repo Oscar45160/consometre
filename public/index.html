@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/it_game.css">
+</head>
+<header>
+    <div class="div1">
+        <img src="images/logo.png" alt=""width="100px">
+        <h1>Consometre</h1>
+    </div>
+    <nav>
+      <div class="container teal borderYtoX">
+        <ul>
+            <li><a href="acceuil.html">Acceuil</a></li>
+            <li><a href="it_game.html">Prevision future</a></li>
+            <li><a href="">Prevision passer</a></li>
+            <li><a href="page.html">Qui somme nous</a></li>
+        </ul>
+      </div>
+    </nav>
+ </header> 
+
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Prévisions météorologiques</title>
+  </head>
+  <body>
+    <h1>Prévisions météorologiques</h1>
+    <label for="date">Sélectionner une date :</label>
+    <input type="date" id="date" name="date"><br>
+    <button onclick="afficherPrevisions()">Afficher les prévisions</button>
+    <div id="previsions"></div>
+
+    <script>
+      function afficherPrevisions() {
+  const date = document.getElementById("date").value;
+  const previsions = `
+    <h2>Prévisions pour le ${date} <span id="jour"></span> KwH</h2> 
+    <ul>
+      <li>Prévision de 0h à 6h : <span id="nuit"></span> KwH</li>
+      <li>Prévision de 6h à 12h : <span id="matin"></span> KwH</li>
+      <li>Prévision de 12h à 18h : <span id="apres-midi"></span> KwH</li>
+      <li>Prévision de 18h à 20h : <span id="soir"></span> KwH</li>
+    </ul>
+  `;
+  document.getElementById("previsions").innerHTML = previsions;
+
+  fetch('/api/data')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Error: ${response.statusText}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      document.getElementById('jour').textContent = data.conso.toFixed(2);
+      document.getElementById('nuit').textContent = data.conso1.toFixed(2);
+      document.getElementById('matin').textContent = data.conso2.toFixed(2);
+      document.getElementById('apres-midi').textContent = data.conso3.toFixed(2);
+      document.getElementById('soir').textContent = data.conso4.toFixed(2);
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+}
+
+    </script> 
+ </body>
+</html>

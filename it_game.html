@@ -24,32 +24,36 @@
     </nav>
  </header> 
 
- 
  <!DOCTYPE html>
- <html>
- <head>
-   <title>Affichage d'une date saisie par l'utilisateur</title>
- </head>
- <body>
- 
-   <h1>Date saisie par l'utilisateur</h1>
- 
-   <label for="date">Saisir une date :</label>
-   <input type="date" id="date" name="date">
-   <button onclick="afficherDate()">Afficher la date</button>
- 
-   <p id="date-affiche"></p>
- 
-   <script>
-     function afficherDate() {
-       var dateSaisie = document.getElementById("date").value; // Obtenir la date saisie par l'utilisateur
-       var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }; // Options pour l'affichage de la date
-       document.getElementById("date-affiche").innerHTML = new Date(dateSaisie).toLocaleDateString('fr-FR', options); // Afficher la date dans la balise <p> ayant l'id "date-affiche"
-     }
-   </script>
+<html>
+  <head>
+    <title>Prévisions météorologiques</title>
+  </head>
+  <body>
+    <h1>Prévisions météorologiques</h1>
+    <label for="date">Sélectionner une date :</label>
+    <input type="date" id="date" name="date"><br>
+    <button onclick="afficherPrevisions()">Afficher les prévisions</button>
+    <div id="previsions"></div>
+
+    <script>
+      function afficherPrevisions() {
+        const date = document.getElementById("date").value;
+        const previsions = `
+          <h2>Prévisions pour le ${date}</h2>
+          <ul>
+            <li>Prévision de 0h à 6h :</li>
+            <li>Prévision de 6h à 12h :</li>
+            <li>Prévision de 12h à 18h :</li>
+            <li>Prévision de 18h à 20h :</li>
+          </ul>
+        `;
+        document.getElementById("previsions").innerHTML = previsions;
+
+      }
+    </script>
+  </body>
+</html>
  
  </body>
- </html>
- 
-</body>
 </html>

@@ -27,45 +27,20 @@
      </header>
         <section id="section_1">
             <div id="phrase_dacroche">
-                <h2>grace a nous: <br><strong></strong>vous pouvez anticiper sur la météo et votre consommation d'énergie</h2>
+                <h2>Grace a Consometre: <br><strong></strong>vous pouvez anticiper sur la météo et votre consommation d'énergie</h2>
                 <p>Data Scope est un groupe de développeurs qui ont créé un logiciel permettant de prévoir des données météorologiques. <br>
                     Grâce à plusieurs calculs effectuer pour en  savoir plus <strong><a href="page.html">cliquer ici</a></strong>  </p>
                 <p></p>
             </div>
-           <div id="image">
            
-           </div>
         </section>
-        <section id="section2">
-            <article class="les_articles" style="background-image: url(cloud-1970486_640.png);">
-                <h4>consulter les prochaine prevision meterologique</h4>
-                <p><small></small></p>
-                <a href="#" class="button-2">cliquer ici</a>
-            </article>
-
-            <article class="les_articles" style="background-image: url(weather-forecast-146472_640.png);">
-                <h4> vous pouvez réviser les prévisions météorologiques passées  </h4>
-                <p><small></small></p>
-                <a href="#" class="button-2">cliquer ici</a>
-            </article>
+        <section id="section2" >
+            <img src="images/cloud-1970486_640.png" alt="">
         </section>
-        <h1>PostgreSQL Data:</h1>
-    <pre id="data"></pre>
-
-    <script>
-        fetch('http://localhost:2500/api/data')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('data').textContent = JSON.stringify(data, null, 2);
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-    </script>
     </body>
     <footer>
 
-        <h1>Data scope .</h1>
+        <h1>Data scope </h1>
         <p class="copyritht">Copyright © Tous droits réservés.</p>
   
   

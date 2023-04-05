@@ -11,3 +11,26 @@ db.one('SELECT NOW()')
   .finally(() => {
     pgp.end();
   });
+
+
+
+  fetch('/api/data', {
+    method: 'POST',
+    body: JSON.stringify({ date: date }),
+    headers: {
+        'Content-Type': 'application/json'
+    }
+    })
+    .then(response => {
+        if (!response.ok) {
+        throw new Error(`Error: ${response.statusText}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Traiter les données renvoyées par le serveur, par exemple, afficher les prévisions météorologiques
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+    });

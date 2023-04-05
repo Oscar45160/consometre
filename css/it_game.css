@@ -2,10 +2,17 @@
 *{
   font: 20px Raleway;
 }
+body{
+	background-color:#efefef ;
+
+ }
+
 
 .div1{
 	display: flex;
-	color: white;
+	color: rgb(248, 247, 247);
+  font-size: 80px ;
+
 }
 header {
 	display: flex;
@@ -13,6 +20,11 @@ header {
 	align-items: center;
 	padding: 20px;
 	background-color: #444;
+  }
+  header h1{
+    margin-top: 2em;
+    font-size: 25px;
+
   }
   
   header img {
@@ -92,16 +104,18 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #section_1 {
 	text-align: justify;
 	width: 60%;
+  margin-left : 10%;;
   }
   
   #phrase_dacroche h2 {
 	font-size: 3rem;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Raleway;
+  font-weight: bold;
   }
   
   #phrase_dacroche p {
 	font-size: 1.2rem;
-	font-family: Arial;
+	font-family: Raleway;
   }
   
 
@@ -110,64 +124,15 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 	width: 100%;
 	height: auto;
   }
-
-  #section2{
-    background-color: #efefef;
-    padding: 60px 0;
-	display: flex;
-	padding-left: 16em;
-}
-
-
-#section2 article{
-width: 460px;
-height: 270px;
-border-radius: 10px;
-
-}
-#section2 article:first-child{
-    margin-right: 20px;
-}
-.les_articles{
-	background-color: #efefef;
-    border-radius: 10px 0 0 10px;
-    text-align: center;
-	border: solid;
-}
   
-article h4{
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
-    text-transform: uppercase;
 
-}
-#section2 p{
-    text-align: center;
-    margin-bottom: 30px;
-	color: black;
-}
-.button-2{
-    color: #fff;
-    background-color: #ff7a00;
-    padding: 6px 20px;
-    border-radius: 3px;
 
-}
-.button-2:hover{
-    color: #fff;
-    background-color: #02b8dd;
-}
-
- body{
-	background-color:#efefef ;
-
- }
-
+ 
 footer h1{
     text-align: center;
     padding-top: 80px;
     color: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Raleway;
 }
 
 footer{
@@ -182,6 +147,9 @@ footer{
     color: #777;
 
 }
+#section2 img {
+margin-left: 10%;
+}
 
 
 
@@ -192,7 +160,9 @@ footer{
 font-size:20px;
 width: 80%;
 font-family: Raleway;
-margin-left: 6% ;
+margin-left: 9% ;
+margin-bottom: 6%;
+margin-top: 6%;
 }
 #section3 h1{
 	font-family: Arial, Helvetica, sans-serif;
@@ -205,9 +175,9 @@ margin-left: 6% ;
 	text-align: center;
 	font-family: Arial;
 	font-size: 20px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #section5{
 border: solid;
 }
- 
+
